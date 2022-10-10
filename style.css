@@ -263,5 +263,9 @@ body {
     .custom-ul {
         margin-top: 20px;
     }
+
+    .card.custom-service-card {
+        margin-bottom: 10px;
+    }
 }
 /* end responsive */
