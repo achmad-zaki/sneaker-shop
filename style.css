@@ -52,7 +52,7 @@ body {
     margin-top: 30px;
 }
 
-.custom-btn-primary {
+.btn.custom-btn-primary {
     color: #fff;
     padding: 15px;
     background-color: #5F9DF7;
@@ -64,6 +64,7 @@ body {
     align-items: center;
     width: 110px;
     transition: 0.75s;
+    border: none;
 }
 
 .custom-btn-primary ion-icon {
@@ -76,9 +77,10 @@ body {
 .custom-btn-primary:hover ion-icon {
     opacity: 1;
     transform: translateX(0);
+    color: #fff;
 }
 
-.custom-btn-primary:hover {
+.btn.custom-btn-primary:hover {
     color: #fff;
     background-color: #457fd4;
     transition: 0.3s;
@@ -91,7 +93,7 @@ body {
     padding-top: 100px;
 }
 
-.custom-service-card {
+.card.custom-service-card {
     border: none !important;
     border-radius: 3px !important;
     transition: .75s;
