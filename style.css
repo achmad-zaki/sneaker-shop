@@ -1,0 +1,265 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #f7f7f7 !important;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.custom-ul {
+    background-color: #e6e6e6;
+    border-radius: 15px;
+}
+
+.nav-item {
+    font-weight: 700;
+    padding: 0 15px;
+}
+
+/* home */
+#home {
+    padding-top: 100px;
+}
+
+.img-custom {
+    padding: 50px 0;
+}
+
+.title-home h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    color: #dc3545;
+    letter-spacing: 1px;
+}
+
+.title-home h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    font-size: 66px;
+    letter-spacing: 1px;
+    color: #363958;
+}
+
+.title-home p {
+    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.custom-btn-primary {
+    color: #fff;
+    padding: 15px;
+    background-color: #5F9DF7;
+    text-decoration: none;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 110px;
+    transition: 0.75s;
+}
+
+.custom-btn-primary ion-icon {
+    position: absolute;
+    padding-left: 80px;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.custom-btn-primary:hover ion-icon {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.custom-btn-primary:hover {
+    color: #fff;
+    background-color: #457fd4;
+    transition: 0.3s;
+    width: 140px;
+}
+/* end home */
+
+/* service */
+#services {
+    padding-top: 100px;
+}
+
+.custom-service-card {
+    border: none !important;
+    border-radius: 3px !important;
+    transition: .75s;
+}
+
+.custom-service-card:hover {
+    background-color: #457fd4;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff;
+    transform: scale(0.98);
+}
+
+.card-body h5 {
+    font-weight: 600;
+}
+
+.card-body p {
+    font-weight: 300;
+}
+/* end service */
+
+/* product */
+#product {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.title-product h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+}
+
+.custom-card {
+    margin-top: 10px;
+    border-radius: 10px !important;
+}
+
+.custom-bg-card {
+    background-color: #f1f1f1 !important;
+    border-radius: 10px;
+}
+
+.custom-footer {
+    background-color: transparent !important;
+    border: none;
+}
+
+.btn.custom-btn-info {
+    text-decoration: none;
+    background-color: #5F9DF7 !important;
+    color: #fff;
+    border-radius: 1px !important;
+    font-weight: 600;
+}
+
+.btn.custom-btn-info:hover {
+    color: #fff;
+    background-color: #457fd4 !important;
+}
+
+.card-body h3 {
+    font-weight: 600;
+}
+
+.float-start h3 {
+    font-weight: 600;
+    color: #dc3545;
+}
+/* end product */
+
+/* contact */
+#contact {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.custom-card-contact {
+    border-radius: 10px !important;
+}
+
+.custom-btn-subscribe {
+    background-color: #5F9DF7 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.custom-btn-subscribe:hover {
+    background-color: #198754 !important;
+}
+
+.card-title-product h1 {
+    font-weight: 700;
+}
+
+#card-toast-failed {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#card-toast-failed.failed {
+    visibility: visible;
+    background-color: #dc3545;
+    border-radius: 5px;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#card-toast-success {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#card-toast-success.success {
+    visibility: visible;
+    background-color: #198754;
+    border-radius: 5px;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+/* end contact */
+
+/* responsive */
+@media (max-width: 576px) {
+    .custom-ul {
+        margin-top: 20px;
+    }
+}
+/* end responsive */

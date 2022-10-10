@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow custom-navbar">
+        <div class="container container-fluid">
+            <a class="navbar-brands img-responsive custom-logo" href="#"><img src="img/brands/logo.png" width="60" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ms-auto text-center custom-ul">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section id="home" class="container">
+        <div class="row g-2 justify-content-around">
+            <div class="col-md-6 d-flex align-items-center justify-content-center order-lg-2">
+                <img src="img/sneaker/hero-sneaker.png" class="p-3 mx-auto d-block w-100" alt="sneakers">
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center order-lg-2">
+                <div class="title-home ms-lg-2">
+                    <h1>NIKE AIR</h1>
+                    <h3>NEVER STOP RUNNING.</h3>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eaque voluptatem totam! Quas assumenda obcaecati.</P>
+                    <div class="button">
+                        <button class="btn custom-btn-primary">Buy Now <ion-icon name="arrow-forward-outline" class="ms-2 fs-4"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end home -->
+
+    <!-- services -->
+    <section id="services" class="container">
+        <div class="row g-2 d-flex align-items-center">
+            <div class="col-md-6 order-1">
+                <div class="col">
+                    <div class="card p-3 mb-3 shadow-sm custom-service-card" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 gy-3">
+                                <img src="img/service/image 12.png" class="mx-auto d-block" width="80" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body card-body-custom">
+                                    <h5 class="card-title">Find the perfect kit</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ullam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card p-3 shadow-sm custom-service-card" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 gy-3">
+                                <img src="img/service/image 14.png" class="mx-auto d-block" width="80" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body card-body-custom">
+                                    <h5 class="card-title">Contact our seller</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ullam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-3 shadow-sm custom-service-card" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 gy-3">
+                                <img src="img/service/image 13.png" class="mx-auto d-block" width="80" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body card-body-custom">
+                                    <h5 class="card-title">Fast Delivery</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ullam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 order-lg-2 order-md-1 mb-3">
+                <img src="img/service/logo-service.png" class="mx-auto d-block w-100" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end services -->
+
+    <!-- product -->
+    <section id="product" class="container">
+        <div class="title-product">
+            <h1>CASUAL SHOES</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card p-1 h-100 shadow-sm custom-card">
+                    <div class="card-body">
+                        <img src="img/sneaker/hero-sneaker.png" class="p-4 w-100 custom-bg-card" alt="">
+                        <h3 class="card-title mt-3">Nike Shoes</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="card-footer custom-footer">
+                        <div class="float-start">
+                            <h3>$49</h3>
+                        </div>
+                        <div class="float-end">
+                            <button class="btn custom-btn-info d-flex align-items-center"><ion-icon size="small" name="cart" class="me-1"></ion-icon>Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card p-1 h-100 shadow-sm custom-card">
+                    <div class="card-body">
+                        <img src="img/sneaker/hero-sneaker.png" class="p-4 w-100 custom-bg-card" alt="">
+                        <h3 class="card-title mt-3">Nike Shoes</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="card-footer custom-footer">
+                        <div class="float-start">
+                            <h3>$49</h3>
+                        </div>
+                        <div class="float-end">
+                            <button class="btn custom-btn-info d-flex align-items-center"><ion-icon size="small" name="cart" class="me-1"></ion-icon>Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card p-1 h-100 shadow-sm custom-card">
+                    <div class="card-body">
+                        <img src="img/sneaker/hero-sneaker.png" class="p-4 w-100 custom-bg-card" alt="">
+                        <h3 class="card-title mt-3">Nike Shoes</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="card-footer custom-footer">
+                        <div class="float-start">
+                            <h3>$49</h3>
+                        </div>
+                        <div class="float-end">
+                            <button class="btn custom-btn-info d-flex align-items-center"><ion-icon size="small" name="cart" class="me-1"></ion-icon>Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end product -->
+
+    <!-- contact -->
+    <section id="contact" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card shadow-sm text-center custom-card-contact">
+                    <div class="card-body">
+                        <div class="card-title card-title-product">
+                            <h1 class="mt-3">SUBSCRIBE TO OUR NEWSLETTER</h1>
+                        </div>
+                        <div class="m-4">
+                            <div class="d-flex align-items-center">
+                                <input type="text" class="form-control" id="input-text" placeholder="Enter Your E-mail">
+                                <button type="button" class="btn custom-btn-subscribe ms-2" value="submit" onclick="myFunction()">Subscribe</button>
+                            </div>
+                        <div id="card-toast-failed">E-mail tidak boleh kosong</div>
+                        <div id="card-toast-success">Terima Kasih</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact -->
+    
+    <!-- js -->
+    <script src="script.js"></script>
+    <!-- ion icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
