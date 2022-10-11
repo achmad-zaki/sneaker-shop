@@ -7,6 +7,11 @@ body {
     background-color: #fff;
 }
 
+button.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
 .custom-ul {
     background-color: #e6e6e6;
     border-radius: 15px;
@@ -14,7 +19,23 @@ body {
 
 .nav-item {
     font-weight: 700;
-    padding: 0 15px;
+    padding: 0 20px;
+}
+
+.nav-link {
+    color: #636363 !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #000000 !important;
+}
+
+.nav-link.active {
+    color: #fff !important;
+    background-color: #5F9DF7;
+    border-radius: 15px;
+    font-weight: 600;
 }
 
 /* home */
@@ -37,7 +58,7 @@ body {
 .title-home h3 {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
-    font-size: 66px;
+    font-size: 56px;
     letter-spacing: 1px;
     color: #363958;
 }
@@ -163,16 +184,27 @@ body {
     font-weight: 600;
     color: #dc3545;
 }
-/* end product */
 
-/* contact */
-#contact {
-    min-height: 100vh;
-    padding-top: 100px;
+/* footer */
+footer {
+    margin-top: 130px;
 }
 
-.custom-card-contact {
-    border-radius: 10px !important;
+.title-footer {
+    font-weight: 600;
+    color: #fff;
+}
+
+.custom-ul-footer {
+    list-style: none;
+}
+
+.custom-ul-footer li {
+    padding-bottom: 15px;
+}
+
+.custom-ul-footer li a {
+    text-decoration: none;
 }
 
 .custom-btn-subscribe {
@@ -184,10 +216,7 @@ body {
 .custom-btn-subscribe:hover {
     background-color: #198754 !important;
 }
-
-.card-title-product h1 {
-    font-weight: 700;
-}
+/* end footer */
 
 #card-toast-failed {
     visibility: hidden;
@@ -259,13 +288,12 @@ body {
 /* end contact */
 
 /* responsive */
-@media (max-width: 576px) {
+@media (min-width: 500px) and (max-width: 992px) {
     .custom-ul {
-        margin-top: 20px;
+        margin-top: 10px
     }
 
-    .card.custom-service-card {
-        margin-bottom: 10px;
+    .nav-link {
+        margin: 8px;
     }
 }
-/* end responsive */
