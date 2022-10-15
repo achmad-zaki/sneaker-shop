@@ -143,6 +143,24 @@ button.navbar-toggler {
     padding-top: 100px;
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .title-product h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
@@ -156,6 +174,12 @@ button.navbar-toggler {
 .custom-bg-card {
     background-color: #f1f1f1 !important;
     border-radius: 10px;
+    transition: .75s;
+}
+
+.custom-bg-card:hover {
+    transform: scale(0.95);
+    cursor: pointer;
 }
 
 .custom-footer {
