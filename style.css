@@ -139,7 +139,7 @@ button.navbar-toggler {
 
 /* product */
 #product {
-    min-height: 100vh;
+
     padding-top: 100px;
 }
 
@@ -149,7 +149,6 @@ button.navbar-toggler {
 }
 
 .swiper-slide {
-    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
